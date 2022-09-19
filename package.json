@@ -13,7 +13,8 @@
     "react-dom": "^18.2.0",
     "zustand": "3.7.2",
     "valtio": "1.2.0",
-    "jotai": "^1.8.3"
+    "jotai": "^1.8.3",
+    "@preact/signals-react": "^1.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.19",
