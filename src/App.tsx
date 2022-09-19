@@ -19,6 +19,7 @@ import ZustandStore from './global_stores/ZustandStore';
 import JotaiStore from './global_stores/JotaiStore';
 import ValtioStore from './global_stores/ValtioStore';
 import SignalsStore from './global_stores/SignalStore';
+import { Counter } from './superhooks/interval.example';
 
 export default function App() {
   const [, rerender] = React.useState(0);
@@ -35,6 +36,8 @@ export default function App() {
       <h1>Global State Managent Tour!</h1>
       <p>From Context to Singletons, Selectors, Proxies && Atoms</p>
       <small>Start editing to see some magic happen :)</small>
+
+      <Counter />
       <SignalsStore />
       <ValtioStore />
       <JotaiStore />
