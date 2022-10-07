@@ -19,7 +19,7 @@ import ZustandStore from './global_stores/ZustandStore';
 import JotaiStore from './global_stores/JotaiStore';
 import ValtioStore from './global_stores/ValtioStore';
 import SignalsStore from './global_stores/SignalStore';
-import { Counter } from './superhooks/interval.example';
+import { Counter } from './super_helpers/interval.example';
 
 export default function App() {
   const [, rerender] = React.useState(0);
